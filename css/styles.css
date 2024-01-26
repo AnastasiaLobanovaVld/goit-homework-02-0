@@ -48,6 +48,8 @@ button {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
 }
 
 .header-container {
@@ -71,6 +73,7 @@ button {
     text-decoration: none;
     display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 
 .header-span {
@@ -80,7 +83,6 @@ button {
 .header-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .header-item {
@@ -145,6 +147,9 @@ gap: 40px;
         letter-spacing: 0.04em;
         padding: 16px 32px;
         padding: 16px 32px;
+        min-width: 169px;
+        height: 56px;
+        border: none; 
 }
 /*======================*/
 
@@ -255,6 +260,7 @@ position: absolute;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+         text-align: center;
 }
 /*======================*/
 
