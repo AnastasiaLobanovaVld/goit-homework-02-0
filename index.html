@@ -18,14 +18,14 @@
   <body>
     <!-- Page header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <!-- The logo is always a link -->
           <a class="logo" href="/" aria-label="WebStudio website logo"
             ><span class="header-span">Web</span>Studio
           </a>
           <!--Links to other pages or sections of the current page -->
-          <ul class="list">
+          <ul class="header-list">
             <li class="header-item">
               <a class="header-link" href="">Studio</a>
             </li>
@@ -37,7 +37,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="list">
+        <ul class="header-address-list">
           <li class="header-item">
             <a class="header-link address" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -55,7 +55,7 @@
     <main>
       <!-- Hero section -->
       <section class="hero-section">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-title">
             Effective Solutions <br />for Your Business
           </h1>
@@ -66,7 +66,7 @@
       <section class="why-we-section">
         <div class="container">
           <h2 class="visually-hidden">Why we section</h2>
-          <ul class="list">
+          <ul class="why-we-list">
             <li class="why-we-item">
               <h2 class="why-we-title">Strategy</h2>
               <p class="why-we-text">
@@ -102,7 +102,7 @@
       <section class="our-team-section">
         <div class="container">
           <h2 class="our-team-main-title">Our team</h2>
-          <ul class="list">
+          <ul class="our-team-list">
             <li class="our-team-item">
               <img
                 class="our-team-img"
@@ -110,8 +110,10 @@
                 alt="Mark Guerrero"
                 width="264"
               />
-              <h3 class="our-team-title">Mark Guerrero</h3>
-              <p class="our-team-text">Product Designer</p>
+              <div class="our-team-info">
+                <h3 class="our-team-title">Mark Guerrero</h3>
+                <p class="our-team-text">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -120,8 +122,10 @@
                 alt="Tom Ford"
                 width="264"
               />
-              <h3 class="our-team-title">Tom Ford</h3>
-              <p class="our-team-text">Frontend Developer</p>
+              <div class="our-team-info">
+                <h3 class="our-team-title">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -130,8 +134,10 @@
                 alt="Camila Garcia"
                 width="264"
               />
-              <h3 class="our-team-title">Camila Garcia</h3>
-              <p class="our-team-text">Marketing</p>
+              <div class="our-team-info">
+                <h3 class="our-team-title">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -140,8 +146,10 @@
                 alt="Daniel Wilson"
                 width="360"
               />
-              <h3 class="our-team-title">Daniel Wilson</h3>
-              <p class="our-team-text">UI Designer</p>
+              <div class="our-team-info">
+                <h3 class="our-team-title">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -150,7 +158,7 @@
       <section class="work-section">
         <div class="container">
           <h2 class="work-main-title">Our Portfolio</h2>
-          <ul class="list">
+          <ul class="work-list">
             <li class="work-item">
               <img
                 class="work-img"
