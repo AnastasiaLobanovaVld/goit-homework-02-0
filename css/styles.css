@@ -51,7 +51,9 @@ button {
 
 .header-container {
     display: flex;
+    width: 1158px;
     align-items: center;
+    padding: 0 15px;
 }
 
 .header-navigation {
