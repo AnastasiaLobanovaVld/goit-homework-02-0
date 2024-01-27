@@ -272,10 +272,6 @@ button {
     padding-bottom: 120px;
 }
 
-.work-container {
-    border: 1px solid #e7e9fc;
-}
-
 .work-main-title {
     text-align: center;
     font-size: 36px;
@@ -291,6 +287,7 @@ button {
     column-gap: 24px; 
     row-gap: 48px;
     justify-content: space-between;
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .work-list:last-child{
@@ -299,11 +296,11 @@ button {
 
 .work-item {
     background: var(--WHITE, #FFF);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    flex-basis: calc((100% - 48px) / 3);
 }
 
 .work-info{
+    border: 1px solid #e7e9fc;
+    border-top: none;
     display: flex;
     width: 360px;
     flex-direction: column;
